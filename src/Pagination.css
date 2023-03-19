@@ -1,0 +1,26 @@
+.pagination {
+  height: 50px;
+}
+
+.pagination button {
+  padding: 10px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 20px;
+  margin: 5px;
+  color: #576370;
+  transition: 0.4s;
+}
+
+.pagination span {
+  padding: 10px;
+  font-size: 20px;
+  color: #576370;
+}
+
+.pagination button:hover,
+button:disabled {
+  color: rgba(87, 99, 112, 0.5);
+}
